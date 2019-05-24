@@ -74,9 +74,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Tee', 'javawtee@gmail.com', '84561379'),
-(2, 'Thong Le', 'thongle7592@gmail.com', '84561379Ab'),
-(3, 'teea', 'thong.le@sjsu.edu', '84561379');
+(1, 'Tee', 'javawtee@gmail.com', '456987123!@aB'),
+(2, 'Thong Le', 'thongle7592@gmail.com', '456987123'),
+(3, 'teea', 'thong.le@sjsu.edu', '456987123fD');
 
 --
 -- Chỉ mục cho các bảng đã đổ
