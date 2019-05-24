@@ -2,6 +2,8 @@
 <h6>A web application of blogging</h6>
 <hr/>
 
+DEMO link: <a href="http://3.84.77.234:3000">www.ec2-3-84-77-234.compute-1.amazonaws.com</a>
+
 <h3> Features </h3>
   <ul>
     <li> User can sign up for an account </li>
@@ -34,6 +36,7 @@
 <h3>Documentations</h3>
   <ol>
     <li> <a href="https://docs.google.com/document/d/1YNi9C5Pp1VYKzVq4rx9rBvnKx9T9Ejw9AvqHkJcPN-w/edit?usp=sharing">Installation guide</a> </li>
+    <li> <a href="https://drive.google.com/file/d/1wTqGqdJ2qziZyp5WLy1WcIzy7hEZWL2t/view?usp=sharing">Design documentation</a></li>
   </ol>
   
 <h3>Using:</h3>
