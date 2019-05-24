@@ -32,10 +32,10 @@ III) Run client and server hosts <br/>
   3. Run client host
     - cd client
     - npm start <br/>
-    If successfully started client host, shell should show: <i> Compiled successfully </i>
+    If successfully started client host, shell should show: <i> Compiled successfully </i> <br/>
+    Then, web browser should automatically open a tab; if not, click here: <a href="localhost:3000">localhost:3000</a>
   4. Open another cmd or terminal
-  5. Repeat step 2, but with 'server' directory <br/>
-    If successfully started client host, shell should show: <i> Welcome to Express JS. You are connected </i> <br/>
-    Then, web browser should automatically open a tab; if not, click here: <a href="localhost:3000">localhost:3000</a> <br/>
+  5. Repeat step 3, but with 'server' directory <br/>
+    If successfully started server host, shell should show: <i> Welcome to Express JS. You are connected </i>
  
  If there is any issue during setup or using application, please feel free to contact me at <a href="mailto:javawtee@gmail.com">javawtee@gmail.com</a>
