@@ -28,10 +28,10 @@ III) Run client and server hosts <br/>
   <i>Assumed XAMPP is running (follow step 1 and 2 in <b>II- Setup database)</b></i>
   1. Open cmd (Windows) or terminal (Linux-based OS)
   2. Go to 'server' directory, and put command: <b>npm start</b> <br/>
-      If successfully started server host, CLI should show: <i> Welcome to Express JS. You are connected </i>
+      If successfully started server host, shell should show: <i> Welcome to Express JS. You are connected </i>
   3. Open another cmd or terminal
   4. Repeat step 2, but with 'client' directory <br/>
-      If successfully started server host, CLI should show: <i> Compiled successfully </i> <br/>
+      If successfully started client host, shell should show: <i> Compiled successfully </i> <br/>
       Then, web browser should automatically open a tab with url <a href="localhost:3000">localhost:3000</a> <br/>
  
  If there is any issue during setup or using application, please feel free to contact me at <a href="mailto:javawtee@gmail.com">javawtee@gmail.com</a>
