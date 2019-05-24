@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 23, 2019 lúc 02:07 AM
+-- Thời gian đã tạo: Th5 24, 2019 lúc 10:23 AM
 -- Phiên bản máy phục vụ: 10.1.38-MariaDB
 -- Phiên bản PHP: 7.3.2
 
@@ -22,11 +22,10 @@ SET time_zone = "+00:00";
 -- Cơ sở dữ liệu: `myblogsite`
 --
 
--- --------------------------------------------------------
-
 CREATE DATABASE myblogsite;
-
 use myblogsite;
+
+-- --------------------------------------------------------
 
 --
 -- Cấu trúc bảng cho bảng `tweets`
@@ -52,7 +51,10 @@ INSERT INTO `tweets` (`id`, `user_name`, `tweeted_time`, `tweet`) VALUES
 (6, 'Tee', '2019-05-22 03:21:00', 'Phasellus ut est non tortor finibus hendrerit sed vel sapien. Nullam commodo pulvinar quam et porta. Nulla faucibus posuere leo, vitae rutrum leo interdum in. Fusce id sapien id augue molestie faucibus ut a lectus. Aenean molestie aliquet tortor, eu convallis leo. Nunc vel odio ligula. Sed ullamcorper orci non egestas tincidunt. Etiam placerat enim lacus, id commodo ex consequat sed. Nulla libero orci, porta dapibus quam sed, vulputate tincidunt urna. Sed quis dui at eros condimentum dapibus eget a nisi. Curabitur pulvinar et massa ac vehicula.\n\nInteger mattis placerat metus, id porttitor tellus laoreet in. Donec dictum viverra arcu sollicitudin sagittis. Maecenas in aliquam lacus. Aliquam mollis accumsan purus, a egestas eros rutrum et. Vivamus tincidunt eleifend magna, et mattis justo convallis a. Nunc fermentum ut lectus non dignissim. In mattis leo in bibendum dictum. Mauris at nisi tristique, finibus eros et, sollicitudin erat.\n\nPellentesque habitant morbi tristique senectus et ne'),
 (7, 'Thong Le', '2019-05-22 03:41:42', 'Nulla quis imperdiet ante. Maecenas facilisis eu elit sit amet rutrum. Integer commodo lectus vitae nisl mollis pharetra. Pellentesque mauris neque, vestibulum id augue id, sagittis ullamcorper massa. Morbi sit amet gravida urna. Curabitur quis consequat est, sit amet bibendum erat. Nunc condimentum purus quis libero sodales, non ornare velit gravida. Nullam accumsan erat justo, et dignissim orci congue vitae. Praesent pharetra elit turpis, vitae vulputate libero tristique eu. Morbi id nisl sed est blandit gravida ac ut velit. Quisque eget volutpat arcu. Etiam at dolor purus. Nulla facilisi. In malesuada tortor quam. Suspendisse consequat odio urna, quis lobortis massa varius quis.\n\nAliquam posuere magna non dui vehicula finibus. Suspendisse potenti. Phasellus id erat ut felis tristique malesuada vitae ac tortor. Etiam finibus, felis ac finibus fermentum, augue velit imperdiet est, non pharetra neque nunc vel odio. Sed luctus lorem at sapien mattis, at consequat massa consectetur. Done'),
 (8, 'Tee', '2019-05-22 03:42:10', 'Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. Nullam ut ex malesuada, blandit nibh a, ultricies mauris. Sed elementum, odio in aliquam rutrum, mi diam placerat orci, sed vestibulum tortor erat nec nibh. Pellentesque vel porta elit, tristique semper lorem. Mauris at tortor malesuada, rutrum est in, fermentum ante.\n\nCras fringilla nibh odio, id facilisis enim convallis in. Mauris magna enim, facilisis nec mi ac, rhoncus fringilla ligula. Quisque a pharetra dui. Duis ultrices lectus et nulla maximus, vel ornare magna scelerisque. Phasellus eu neque metus. Nulla imperdiet non nulla sit amet semper. Duis non suscipit erat, at gravida nisl. Nullam ex neque, malesuada at lectus eget, '),
-(9, 'Tee', '2019-05-22 04:05:16', 'Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. Nullam ut ex malesuada, blandit nibh a, ultricies mauris. Sed elementum, odio in aliquam rutrum, mi diam placerat orci, sed vestibulum tortor erat nec nibh. Pellentesque vel porta elit, tristique semper lorem. Mauris at tortor malesuada, rutrum est in, fermentum ante.\n\nCras fringilla nibh odio, id facilisis enim convallis in. Mauris magna enim, facilisis nec mi ac, rhoncus fringilla ligula. Quisque a pharetra dui. Duis ultrices lectus et nulla maximus, vel ornare magna scelerisque. Phasellus eu neque metus. Nulla imperdiet non nulla sit amet semper. Duis non suscipit erat, at gravida nisl. Nullam ex neque, malesuada at lectus eget, ');
+(9, 'Tee', '2019-05-22 04:05:16', 'Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. Nullam ut ex malesuada, blandit nibh a, ultricies mauris. Sed elementum, odio in aliquam rutrum, mi diam placerat orci, sed vestibulum tortor erat nec nibh. Pellentesque vel porta elit, tristique semper lorem. Mauris at tortor malesuada, rutrum est in, fermentum ante.\n\nCras fringilla nibh odio, id facilisis enim convallis in. Mauris magna enim, facilisis nec mi ac, rhoncus fringilla ligula. Quisque a pharetra dui. Duis ultrices lectus et nulla maximus, vel ornare magna scelerisque. Phasellus eu neque metus. Nulla imperdiet non nulla sit amet semper. Duis non suscipit erat, at gravida nisl. Nullam ex neque, malesuada at lectus eget, '),
+(10, 'Thong Le', '2019-05-23 22:25:07', 'Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. '),
+(11, 'teea', '2019-05-23 22:28:32', 'Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. Cras volutpat est sed metus commodo ullamcorper. Aenean et lacinia ex. Fusce varius ex ac est euismod, et tristique velit porta. Sed euismod posuere tincidunt. Nunc finibus est a nunc tempor porttitor. Sed ut bibendum tortor. Fusce nisi orci, auctor vel tellus vehicula, porta lobortis urna. Sed nunc odio, commodo sit amet metus id, hendrerit venenatis nibh. '),
+(12, 'Thong Le', '2019-05-23 23:59:07', 'Nulla quis imperdiet ante. Maecenas facilisis eu elit sit amet rutrum. Integer commodo lectus vitae nisl mollis pharetra. Pellentesque mauris neque, vestibulum id augue id, sagittis ullamcorper massa. Morbi sit amet gravida urna');
 
 -- --------------------------------------------------------
 
@@ -73,7 +75,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
 (1, 'Tee', 'javawtee@gmail.com', '84561379'),
-(2, 'Thong Le', 'thongle7592@gmail.com', '84561379');
+(2, 'Thong Le', 'thongle7592@gmail.com', '84561379Ab'),
+(3, 'teea', 'thong.le@sjsu.edu', '84561379');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -101,13 +104,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `tweets`
 --
 ALTER TABLE `tweets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
