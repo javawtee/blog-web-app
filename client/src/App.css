@@ -1,0 +1,17 @@
+.App {
+  box-sizing: border-box;
+  padding: 2vh 30vw;
+}
+
+.home-container {
+  padding: 15vh 0;
+}
+
+.tweet {
+  box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.2), 1px 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tweet-img-button {
+  cursor: pointer;
+  width: 3vw;
+}
