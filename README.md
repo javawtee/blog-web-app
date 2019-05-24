@@ -2,7 +2,7 @@
 <h6>A web application of blogging</h6>
 <hr/>
 
-DEMO link: <a href="http://3.84.77.234:3000">www.ec2-3-84-77-234.compute-1.amazonaws.com</a>
+DEMO link: <a href="http://52.23.242.183:3000">www.ec2-52-23-242-183.compute-1.amazonaws.com</a>
 
 <h3> Features </h3>
   <ul>
